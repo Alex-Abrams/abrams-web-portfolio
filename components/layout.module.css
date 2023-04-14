@@ -1,0 +1,9 @@
+.container {
+  background-color: rgb(173, 244, 242);
+  height: 100vh; /* fills the screen height wise */
+}
+
+#grid > div {
+  border-width: 3px;
+  border-color: blueviolet;
+}
