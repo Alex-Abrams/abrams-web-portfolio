@@ -1,9 +1,41 @@
-.container {
-  background-color: rgb(173, 244, 242);
+.globo_container {
+  background-color: rgb(254, 254, 254);
   height: 100vh; /* fills the screen height wise */
+  /* position: relative; */
 }
 
 #grid > div {
   border-width: 3px;
   border-color: blueviolet;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #666666;
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  /* width: 100%; */
+  height: 100vh;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #eeeeee;
+  text-align: center;
+  padding: 15px 12px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+#navbar a:hover {
+  color: #1c87c9;
+}
+
+#container {
+  padding: 18px;
+  margin-top: 35px;
+  /* height: 2000px; */
 }

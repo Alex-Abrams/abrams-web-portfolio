@@ -1,14 +1,19 @@
+import styles from "./layout.module.css";
 export default function NavBarVertical() {
   return (
-    <div className="border-2 h-80">
-      <h2>Navbar</h2>
-      <ul>
-        <li>link 1</li>
-        <li>link 2</li>
-        <li>link 3</li>
-        <li>link 4</li>
-        <li>link 5</li>
-      </ul>
-    </div>
+    <>
+      <div id={styles.navbar}>
+        <a href="#books">Books</a>
+        <a href="#quizzes">Quizzes</a>
+        <a href="#snippets">Snippets</a>
+        <a href="#tools">Tools</a>
+        <a href="#stringfunctions">String Functions</a>
+      </div>
+
+      <div id={styles.container}>
+        <h1>here must be title</h1>
+        <p>Here must be your content</p>
+      </div>
+    </>
   );
 }
