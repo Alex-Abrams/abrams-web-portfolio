@@ -11,16 +11,26 @@ export default function SideNavBar() {
         <Image
           priority
           src="/images/Cat_August_2010-4.jpg"
-          height={144}
-          width={144}
+          height={180}
+          width={180}
         />
       </div>
       <ul>
         <li>Should be its own like |NavBar|</li>
-        <li>thing 1</li>
-        <li>thing 1</li>
-        <li>thing 1</li>
-        <li>thing 1</li>
+
+        <li>UI/UX Designs</li>
+
+        <li>Apps tour</li>
+
+        <li>Skills</li>
+
+        <li>
+          <Link href="/resume/resume">Resume</Link>
+        </li>
+
+        <li>
+        <Link href="/">Home</Link>
+        </li>
       </ul>
     </div>
   );
