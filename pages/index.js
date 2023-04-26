@@ -19,7 +19,7 @@ export default function Home() {
         <div>02</div>
         <div>03</div>
         <div>04</div>
-        <div>05</div>
+
       </div>
 
       {/* <div id={styles.navbar}>
