@@ -4,6 +4,10 @@ import Image from "next/image";
 import styles from "../layout.module.css";
 import { useRouter } from "next/router";
 
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faCoffee } from "@fortawesome/free-solid-svg-icons";
+// import { faAlternateGitHub } from "@fortawesome/free-solid-svg-icons";
+
 export default function SideNavBar() {
   const router = useRouter();
   const handleClick = (e, path) => {
@@ -54,7 +58,11 @@ export default function SideNavBar() {
           Home
         </li>
 
-        <li onClick={(e) => handleClick(e, "/")}>% & symbols</li>
+        <li onClick={(e) => handleClick(e, "/")}>
+          {/* <FontAwesomeIcon icon={faCoffee} /> */}
+          {/* <FontAwesomeIcon icon={faGitHub} /> */}
+          {/* <FontAwesomeIcon icon={faAlternateGitHub} /> */}
+        </li>
       </ul>
     </div>
   );
