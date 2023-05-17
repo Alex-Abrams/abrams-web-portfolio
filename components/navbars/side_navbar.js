@@ -5,8 +5,11 @@ import styles from "../layout.module.css";
 import { useRouter } from "next/router";
 
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faCoffee } from "@fortawesome/free-solid-svg-icons";
-// import { faAlternateGitHub } from "@fortawesome/free-solid-svg-icons";
+// import { faSearchengin } from "@fortawesome/free-solid-svg-icons";
+// import { faGitHub } from "@fortawesome/free-solid-svg-icons";
+// import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { FaLinkedinIn, FaGithub } from "react-icons/fa";
+// import { FaGithub } from "react-icons/fa";
 
 export default function SideNavBar() {
   const router = useRouter();
@@ -59,9 +62,10 @@ export default function SideNavBar() {
         </li>
 
         <li onClick={(e) => handleClick(e, "/")}>
-          {/* <FontAwesomeIcon icon={faCoffee} /> */}
-          {/* <FontAwesomeIcon icon={faGitHub} /> */}
-          {/* <FontAwesomeIcon icon={faAlternateGitHub} /> */}
+          <div className={styles.socialLinks}>
+            <FaLinkedinIn size={30} />
+            <FaGithub size={30} />
+          </div>
         </li>
       </ul>
     </div>
