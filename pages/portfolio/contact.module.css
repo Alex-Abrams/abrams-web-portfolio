@@ -1,0 +1,36 @@
+.contactForm {
+  /* color: black; */
+  /* color: blue; */
+  display: flex;
+  flex-direction: column;
+}
+
+.contactForm input {
+  color: black;
+  width: 25%;
+}
+
+.contactForm textarea {
+  width: 50%;
+  height: 150px;
+}
+
+.contactForm div {
+  padding-top: 20px;
+}
+
+.submitButton {
+  /* color: blue; */
+  /* border-width: 3px; */
+  /* border-color: rgb(0, 255, 221); */
+  height: 50px;
+  border-radius: 7px;
+  background-color: rgb(10, 157, 122);
+  font-weight: bold;
+  text-shadow: 0.07em 0 black, 0 0.07em black, -0.07em 0 black, 0 -0.07em black;
+  /* padding-top: 20px; */
+}
+
+.submitButton:hover {
+  background-color: rgb(7, 105, 82);
+}
