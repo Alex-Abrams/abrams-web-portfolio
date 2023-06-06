@@ -4,12 +4,7 @@ import Image from "next/image";
 import styles from "../layout.module.css";
 import { useRouter } from "next/router";
 
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faSearchengin } from "@fortawesome/free-solid-svg-icons";
-// import { faGitHub } from "@fortawesome/free-solid-svg-icons";
-// import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
-// import { FaGithub } from "react-icons/fa";
 
 export default function SideNavBar() {
   const router = useRouter();
@@ -36,37 +31,38 @@ export default function SideNavBar() {
           UI/UX Designs
         </li>
 
-        <li onClick={(e) => handleClick(e, "/portfolio/tour")}>
-          {/* <Link href="/portfolio/resume">Apps tour</Link> */}
-          Apps tour
-        </li>
+        <li onClick={(e) => handleClick(e, "/portfolio/tour")}>Apps tour</li>
 
-        <li onClick={(e) => handleClick(e, "/portfolio/skills")}>
-          {/* <Link href="/portfolio/resume">Skills</Link> */}
-          Skills
-        </li>
+        <li onClick={(e) => handleClick(e, "/portfolio/skills")}>Skills</li>
 
-        <li onClick={(e) => handleClick(e, "/portfolio/resume")}>
-          {/* <Link href="/portfolio/resume">Resume</Link> */}
-          Resume
-        </li>
+        <li onClick={(e) => handleClick(e, "/portfolio/resume")}>Resume</li>
 
         <li onClick={(e) => handleClick(e, "/portfolio/contact")}>
-          {/* <Link href="/portfolio/resume">Contact Me</Link> */}
           Contact Me
         </li>
 
-        <li onClick={(e) => handleClick(e, "/")}>
-          {/* <Link href="/">Home</Link> */}
-          Home
-        </li>
+        <li onClick={(e) => handleClick(e, "/")}>Home</li>
 
-        <li onClick={(e) => handleClick(e, "/")}>
-          <div className={styles.socialLinks}>
-            <FaLinkedinIn size={30} />
-            <FaGithub size={30} />
-          </div>
-        </li>
+        <div className={styles.socialLinks}>
+          <li>
+            <Link
+              href="https://www.linkedin.com/in/alexander-abrams-309615a3/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <FaLinkedinIn size={30} />
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="https://github.com/Alex-Abrams"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <FaGithub size={30} />
+            </Link>
+          </li>
+        </div>
       </ul>
     </div>
   );

@@ -10,7 +10,7 @@ export default function Contact() {
 
   const renderSubmitMessage = () => {
     if (submitMessage === null) {
-      return <div>zzzzzzzzzzz</div>;
+      return null;
     } else if (submitMessage === true) {
       return <div>Message Successfully Sent!</div>;
     } else {
@@ -47,15 +47,36 @@ export default function Contact() {
   return (
     <>
       <div className={styles.topInfo}>
-        <h2>Contact Me</h2>
+        <h1>Let's make something together.</h1>
+        <h2>Get In Touch</h2>
       </div>
       <form ref={form} onSubmit={sendEmail} className={styles.contactForm}>
-        <label>Your Name</label>
-        <input type="text" name="from_name" style={{ color: "black" }} />
-        <label>Your Email</label>
-        <input type="email" name="user_email" style={{ color: "black" }} />
-        <label>Message</label>
-        <textarea name="message" style={{ color: "black" }} />
+        <div>
+          {/* <label>Your Name</label> */}
+          <input
+            type="text"
+            name="from_name"
+            placeholder="Name"
+            style={{ color: "black" }}
+          />
+        </div>
+        <div>
+          {/* <label>Your Email</label> */}
+          <input
+            type="email"
+            name="user_email"
+            placeholder="Email"
+            style={{ color: "black" }}
+          />
+        </div>
+        <div>
+          {/* <label>Message</label> */}
+          <textarea
+            name="message"
+            style={{ color: "black" }}
+            placeholder="Message Me!"
+          />
+        </div>
         <div>
           <input
             type="submit"
