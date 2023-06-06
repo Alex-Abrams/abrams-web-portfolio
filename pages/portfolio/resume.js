@@ -1,11 +1,44 @@
 // import Link from "next/link";
-export default function Resume () {
+import styles from "./resume.module.css";
+export default function Resume() {
+  // get rid of all the Li's and do a mapping array
   return (
     <>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
+      <div>
+        <h1>Profesional Skills and Expereince</h1>
 
+        <div className={styles.cornerRibbon}>
+          <div className={styles.cornerRibbon__inner}>RIBBON</div>
+        </div>
+
+        <h2>About Me</h2>
+        <p>im great its coo to be me sometimes blah blah blah blah blah blah</p>
+        <h2>Coding Technologies</h2>
+        <ul>
+          <li>JavaScript</li>
+          <li>JavaScript</li>
+          <li>JavaScript</li>
+          <li>JavaScript</li>
+          <li>JavaScript</li>
+          <li>JavaScript</li>
+          <li>JavaScript</li>
+          <li>JavaScript</li>
+          <li>JavaScript</li>
+          <li>JavaScript</li>
+          <li>JavaScript</li>s<li>JavaScript</li>
+        </ul>
+        <h2>UI/UX Technologies</h2>
+        <ul>
+          <li>figma</li>
+          <li>figma</li>
+          <li>figma</li>
+        </ul>
+        <h2>Professional Experience</h2>
+        <ul>
+          <li>Revature</li>
+          <li>CPCO</li>
+        </ul>
+      </div>
     </>
   );
 }

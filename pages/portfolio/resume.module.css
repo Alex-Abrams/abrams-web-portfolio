@@ -1,0 +1,29 @@
+/* .pdfBanner {
+  background-color: blue;
+  position: absolute;
+  top: -10;
+  right: -10;
+  transform: rotate(25deg);
+  height: 100px;
+  width: 500px;
+  text-align: center;
+  overflow: hidden;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  position: absolute;
+} */
+.container {
+  background-color: yellow;
+}
+
+.cornerRibbon {
+  position: absolute;
+  top: 0;
+  right: 00;
+  background-color: white;
+
+  overflow: hidden;
+  z-index: 4;
+  transform: rotate(25deg);
+}
