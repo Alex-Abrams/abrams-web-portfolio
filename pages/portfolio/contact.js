@@ -56,7 +56,7 @@ export default function Contact() {
           <input
             type="text"
             name="from_name"
-            placeholder="Name"
+            placeholder="Your Name"
             style={{ color: "black" }}
           />
         </div>
@@ -65,7 +65,7 @@ export default function Contact() {
           <input
             type="email"
             name="user_email"
-            placeholder="Email"
+            placeholder="Your Email"
             style={{ color: "black" }}
           />
         </div>
@@ -74,13 +74,13 @@ export default function Contact() {
           <textarea
             name="message"
             style={{ color: "black" }}
-            placeholder="Message Me!"
+            placeholder="Your Message"
           />
         </div>
         <div>
           <input
             type="submit"
-            value="Send Contact!"
+            value="Submit!"
             className={styles.submitButton}
             style={{ color: "white" }}
           />
