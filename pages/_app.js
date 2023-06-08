@@ -6,7 +6,7 @@ import ResumeRibbon from "../components/navbars/resume_ribbon";
 export default function App({ Component, pageProps }) {
   return (
     <Layout>
-      <ResumeRibbon />
+      {/* <ResumeRibbon /> */}
       <Component {...pageProps} />
     </Layout>
   );
