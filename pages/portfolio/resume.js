@@ -1,10 +1,19 @@
-// import Link from "next/link";
+import Link from "next/link";
 import styles from "./resume.module.css";
+import Image from "next/image";
+import { FaStar } from "react-icons/fa";
 export default function Resume() {
   // get rid of all the Li's and do a mapping array
   return (
     <>
       <div className={styles.container}>
+        <div className={styles.starContainer}>
+          <a href="/images/Alexander_Abrams_Resume-site.pdf" download="cv">
+            <div>Download Resume PDF</div>
+            <FaStar className={styles.star} size={210}></FaStar>
+          </a>
+        </div>
+
         <h1>Profesional Skills and Expereince</h1>
 
         <div className={styles.ribbonContainer}>
