@@ -13,7 +13,7 @@ export default function Home() {
       </div>
 
       <div className={styles.homeSmallText}>
-        Frontend Developer: React, React Native, JavaScript, HTML, Ruby, Java,
+        Frontend Developer: React, React Native, JavaScript, HTML, Ruby on Rails, Java,
         Figma
       </div>
     </div>

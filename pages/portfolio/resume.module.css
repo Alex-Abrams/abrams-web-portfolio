@@ -17,3 +17,12 @@
 .star {
   color: rgb(10, 157, 122);
 }
+
+.headingBox {
+  background-color: white;
+  height: 300px;
+}
+
+.headingBox p {
+  color: black;
+}
