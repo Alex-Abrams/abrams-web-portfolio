@@ -9,10 +9,16 @@ export default function Resume() {
       <div className={styles.container}>
         <div className={styles.starContainer}>
           <a href="/images/Alexander_Abrams_Dev_Resume.pdf" download="cv">
-            <div>Download Resume PDF</div>
-            <FaStar className={styles.star} size={210}></FaStar>
+            <Image
+            priority
+            src="/images/pdf_download.png"
+            alt="my-logo"
+            height={200}
+            width={200}
+            />
           </a>
         </div>
+
 
         <h1 className={styles.header}>Profesional Skills and Experience</h1>
 
@@ -39,6 +45,36 @@ export default function Resume() {
         <div className={styles.workExp}>
           <h2>Professional Experience</h2>
           <ul>
+            <li>JavaScript</li>
+            <li>JavaScript</li>
+            <li>JavaScript</li>
+            <li>JavaScript</li>
+            <li>JavaScript</li>
+            <li>JavaScript</li>
+            <li>JavaScript</li>
+            <li>JavaScript</li>
+            <li>JavaScript</li>
+            <li>JavaScript</li>
+            <li>JavaScript</li>
+            <li>JavaScript</li>
+            <li>JavaScript</li>
+            <li>JavaScript</li>
+            <li>JavaScript</li>
+            <li>JavaScript</li>
+            <li>JavaScript</li>
+            <li>JavaScript</li>
+            <li>JavaScript</li>
+            <li>JavaScript</li>
+            <li>JavaScript</li>
+            <li>JavaScript</li>
+            <li>JavaScript</li>
+            <li>JavaScript</li>
+            <li>JavaScript</li>
+            <li>JavaScript</li>
+            <li>JavaScript</li>
+            <li>JavaScript</li>
+            <li>JavaScript</li>
+            <li>JavaScript</li>
             <li>JavaScript</li>
             <li>JavaScript</li>
             <li>JavaScript</li>

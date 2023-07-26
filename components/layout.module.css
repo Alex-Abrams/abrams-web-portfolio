@@ -7,10 +7,6 @@
   color: rgb(174, 174, 174);
 }
 
-.getSticky {
-  position: sticky;
-  top: 0;
-}
 
 .sidebar {
   /* border-width: 9px; */
@@ -18,10 +14,12 @@
   border-color: rgb(33, 33, 33);
   width: 10%;
   text-align: center;
+  position: fixed;
   /* position: sticky; */
   /* top: 0; */
+  /* left: 0; */
   /* position: absolute; */
-  /* height: 100%; */
+  height: 100%;
 }
 
 .logo {
@@ -53,7 +51,7 @@
   border-color: black;
   width: 100%;
   padding: 5%;
-  /* margin-left: 8%; */
+  margin-left: 8%;
   /* this gives the text a more pop outty feel */
   color: white;
   font-size: 20px;
