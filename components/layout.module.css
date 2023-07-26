@@ -1,8 +1,15 @@
 .sideContainer {
   display: flex;
   flex-direction: row;
-  height: 100vh;
+  /* height: 100vh; */
+  /* height: 100%; */
+  /* min-height: 100%; */
   color: rgb(174, 174, 174);
+}
+
+.getSticky {
+  position: sticky;
+  top: 0;
 }
 
 .sidebar {
@@ -11,6 +18,10 @@
   border-color: rgb(33, 33, 33);
   width: 10%;
   text-align: center;
+  /* position: sticky; */
+  /* top: 0; */
+  /* position: absolute; */
+  /* height: 100%; */
 }
 
 .logo {
@@ -42,10 +53,11 @@
   border-color: black;
   width: 100%;
   padding: 5%;
+  /* margin-left: 8%; */
   /* this gives the text a more pop outty feel */
   color: white;
   font-size: 20px;
-  text-shadow: 0.07em 0 black, 0 0.07em black, -0.07em 0 black, 0 -0.07em black;
+  /* text-shadow: 0.07em 0 black, 0 0.07em black, -0.07em 0 black, 0 -0.07em black; */
 }
 
 .homeTitle {

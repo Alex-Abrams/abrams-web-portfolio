@@ -1,3 +1,7 @@
+.container {
+  /* height: 200vh; */
+}
+
 .starContainer {
   position: absolute;
   top: 5%;
@@ -18,11 +22,36 @@
   color: rgb(10, 157, 122);
 }
 
-.headingBox {
-  background-color: white;
-  height: 300px;
+.header {
+  font-size: 40px;
+  margin-bottom: 20px
 }
 
-.headingBox p {
+.aboutMe {
+  width: 70%;
+  background-color: white;
+  color: black;
+  margin-bottom: 30px;
+}
+
+.codingTechs {
+  background-color: white;
+  color: black;
+  /* height: 300px; */
+  width: 70%;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+.uiuxTechs {
+  color: black;
+  width: 70%;
+  background-color: white;
+  margin-bottom: 30px;
+}
+
+.workExp {
+  width: 70%;
+  background-color: white;
   color: black;
 }

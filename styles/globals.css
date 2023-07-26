@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+html, body {
+  height: 100%;
+  background-color: rgb(33, 33, 33);
+}
+
 .logo {
   /* align-content: center; */
   /* align-items: center; */

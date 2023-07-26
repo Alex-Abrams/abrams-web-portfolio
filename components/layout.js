@@ -6,7 +6,7 @@ export default function Layout({ children }) {
   return (
     <>
       <div className={styles.sideContainer}>
-      <SideNavBar />
+      <SideNavBar className={styles.getSticky} />
         <main className={styles.content}>{children}</main>
       </div>
     </>
