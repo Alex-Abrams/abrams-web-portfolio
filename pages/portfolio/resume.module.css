@@ -1,25 +1,18 @@
 .container {
-  /* height: 200vh; */
-  /* not working  */
-  /* overflow-y:auto; */
-  /* overflow: auto; */
-  /* overflow: scroll; */
+
 }
 
 .starContainer {
-  /* position: absolute; */
+
   position: fixed;
-  /* sticky works here */
-  /* position: sticky; */
+
   top: 5%;
   right: 5%;
 }
-/* <FaStar className={styles.star} size={210}></FaStar> */
+
 .starContainer div {
-  /* color: blue; */
   z-index: 2;
   text-align: center;
-  /* position: absolute; */
   position: fixed;
   top: 50%;
   left: 50%;
@@ -31,11 +24,19 @@
   color: rgb(10, 157, 122);
 }
 
-
 .header {
   font-size: 40px;
   margin-bottom: 20px
 }
+
+.resumeContent {
+
+}
+
+.resumeContent h2 {
+  font-size: 28px;
+}
+
 
 .aboutMe {
   width: 70%;
@@ -47,7 +48,6 @@
 .codingTechs {
   background-color: white;
   color: black;
-  /* height: 300px; */
   width: 70%;
   font-weight: normal;
   margin-bottom: 30px;
@@ -64,4 +64,12 @@
   width: 70%;
   background-color: white;
   color: black;
+}
+
+.workExp h3 {
+  font-size: 24px;
+}
+.workExp span {
+  font-size: 12px;
+  padding-left: 20px;
 }
