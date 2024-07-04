@@ -9,12 +9,12 @@ export default function Home() {
       <div className={styles.homeTitle}>
         <h1 className="">Hello!</h1>
         <h1 className="">I'm Alex,</h1>
-        <h1 className="">Web Developer & UI/UX Designer</h1>
+        <h1 className="">Frontend Developer & UI/UX Designer</h1>
       </div>
 
       <div className={styles.homeSmallText}>
-        Frontend Developer: React, React Native, JavaScript, HTML, Ruby on Rails, Java,
-        Figma
+        Frontend Developer: React, JavaScript, TypeScript, HTML, Ruby on Rails, Java,
+        Figma, CSS
       </div>
     </div>
   );

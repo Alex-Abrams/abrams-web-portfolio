@@ -3,12 +3,12 @@ import styles from "./resume.module.css";
 import Image from "next/image";
 import { FaStar } from "react-icons/fa";
 export default function Resume() {
-  // get rid of all the Li's and do a mapping array
+  // get rid of all the Li's and do a mapping array public/images/Alexander_Abrams_FS.pdf
   return (
     <>
       <div className={styles.container}>
         <div className={styles.starContainer}>
-          <a href="/images/Alexander_Abrams_Dev_Resume.pdf" download="cv">
+          <a href="/images/Alexander_Abrams_FS.pdf" download="Alexander-Abrams-Resume">
             <Image
             priority
             src="/images/pdf_download.png"
@@ -47,6 +47,12 @@ export default function Resume() {
           <div>
 
           </div>
+          <h3>Momentix<span>10/1/1022 - 10/1/1022</span></h3>
+          <jobtitle>Junior Developer</jobtitle>
+          <li>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </li>
+
             <h3>Revature LLC.<span>10/1/1022 - 10/1/1022</span></h3>
             <jobtitle>Junior Developer</jobtitle>
             <li>
