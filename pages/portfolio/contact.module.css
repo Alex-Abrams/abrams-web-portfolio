@@ -1,0 +1,52 @@
+.topInfo h1 {
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.topInfo h2 {
+  font-size: 28px;
+}
+
+.contactForm {
+  /* color: black; */
+  /* color: blue; */
+  display: flex;
+  flex-direction: column;
+}
+
+.contactForm input {
+  color: black;
+  width: 25%;
+  border-radius: 5px;
+  /* border-color: rgb(10, 157, 122); */
+  border-top: 10px;
+  border-color: red;
+  padding-left: 10px;
+}
+
+.contactForm textarea {
+  width: 50%;
+  height: 150px;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.contactForm div {
+  padding-top: 20px;
+}
+
+.submitButton {
+  /* color: blue; */
+  /* border-width: 3px; */
+  /* border-color: rgb(0, 255, 221); */
+  height: 50px;
+  border-radius: 7px;
+  background-color: rgb(10, 157, 122);
+  font-weight: bold;
+  text-shadow: 0.07em 0 black, 0 0.07em black, -0.07em 0 black, 0 -0.07em black;
+  /* padding-left: 10px; */
+}
+
+.submitButton:hover {
+  background-color: rgb(7, 105, 82);
+}

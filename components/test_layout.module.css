@@ -1,0 +1,41 @@
+.sideContainer {
+  /* so display flex makes it work side by side but cant aligned the content */
+  display: flex;
+  /* display block doesnt work with the rows */
+  /* display: inline-flex; */
+  flex-direction: row;
+  height: 100vh;
+  /* width: 100%; */
+}
+
+.sidebar {
+  border-width: 2px;
+  background-color: rgb(140, 0, 255);
+  border-color: black;
+  width: 12%;
+  /* align-items: center; */
+  /* justify-content: center; */
+  text-align: center;
+  /* flex-grow: 1; */
+}
+
+/* literally cannot configure this at all */
+.logo {
+  height: 200px;
+  border-width: 6px;
+  border-color: black;
+  /* width: 450000px; */
+  /* flex-wrap: wrap; */
+  background-color: yellow;
+}
+
+.sidebar li {
+  padding: 40px;
+}
+
+.content {
+  border-width: 2px;
+  background-color: aquamarine;
+  border-color: black;
+  width: 100%;
+}

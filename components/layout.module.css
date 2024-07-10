@@ -1,0 +1,76 @@
+.sideContainer {
+  display: flex;
+  flex-direction: row;
+  /* height: 100vh; */
+  /* height: 100%; */
+  /* min-height: 100%; */
+  color: rgb(174, 174, 174);
+}
+
+
+.sidebar {
+  /* border-width: 9px; */
+  background-color: rgb(30, 30, 30);
+  border-color: rgb(33, 33, 33);
+  width: 10%;
+  text-align: center;
+  position: fixed;
+  /* position: sticky; */
+  /* top: 0; */
+  /* left: 0; */
+  /* position: absolute; */
+  height: 100%;
+}
+
+.logo {
+  height: 200px;
+  border-width: 6px;
+  border-color: black;
+  background-color: yellow;
+  padding-left: 20px;
+}
+
+.sidebarList {
+  padding-top: 25px;
+}
+
+.sidebar li {
+  padding: 20px;
+  border-top: 5px;
+  border-style: solid;
+  border-color: rgb(33, 33, 33);
+}
+
+.sidebar li:hover {
+  color: rgb(10, 157, 122);
+}
+
+.content {
+  /* border-width: 2px; */
+  background-color: rgb(33, 33, 33);
+  border-color: black;
+  width: 100%;
+  padding: 5%;
+  margin-left: 8%;
+  /* this gives the text a more pop outty feel */
+  color: white;
+  font-size: 20px;
+  /* text-shadow: 0.07em 0 black, 0 0.07em black, -0.07em 0 black, 0 -0.07em black; */
+}
+
+.homeTitle {
+  font-size: 70px;
+  font-weight: 800;
+}
+
+.homeSmallText {
+  color: rgb(126, 126, 126);
+  font-family: Courier-Oblique;
+  font-style: italic;
+}
+
+.socialLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
