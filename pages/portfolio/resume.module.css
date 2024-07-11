@@ -30,40 +30,79 @@
 }
 
 .resumeContent {
+  /* padding: 15px; */
+}
 
+.resumeContent li {
+  list-style-type: disc;
+  margin-left: 45px;
+}
+
+.resumeContent h2 {
+  margin-left: 5px;
+}
+
+.resumeContent h3 {
+  margin-left: 15px;
+}
+
+.resumeContent jobtitle {
+  margin-left: 15px;
 }
 
 .resumeContent h2 {
   font-size: 28px;
 }
 
+.horizontalLine {
+  width: 100%;
+  height: 2px;
+  background-color: gray;
+}
 
 .aboutMe {
   width: 70%;
-  background-color: white;
-  color: black;
+  /* background-color: white; */
+  /* color: black; */
+  color: rgb(10, 157, 122); /* the greenish background color */
+  /* color: rgb(174, 174, 174); */
   margin-bottom: 30px;
 }
 
+.aboutMe p {
+  margin-left: 10px;
+}
+
 .codingTechs {
-  background-color: white;
-  color: black;
+  /* background-color: white; */
+  /* color: black; */
+  color: rgb(10, 157, 122); /* the greenish background color */
   width: 70%;
   font-weight: normal;
   margin-bottom: 30px;
 }
 
+.codingTechs p {
+  margin-left: 10px;
+}
+
 .uiuxTechs {
-  color: black;
+  /* color: black; */
   width: 70%;
-  background-color: white;
+  color: rgb(10, 157, 122); /* the greenish background color */
+  /* background-color: white; */
   margin-bottom: 30px;
+}
+
+.uiuxTechs p {
+  margin-left: 10px;
 }
 
 .workExp {
   width: 70%;
-  background-color: white;
-  color: black;
+  /* background-color: white; */
+  color: rgb(10, 157, 122); /* the greenish background color */
+  /* color: black; */
 }
 
 .workExp h3 {

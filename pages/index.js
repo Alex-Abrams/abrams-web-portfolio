@@ -14,7 +14,11 @@ export default function Home() {
 
       <div className={styles.homeSmallText}>
         Frontend Developer: React, JavaScript, TypeScript, HTML, Ruby on Rails, Java,
+<<<<<<< HEAD
         Figma, CSS
+=======
+        Figma, CSS, Kotlin, Next.js, jQuery, PostgreSQL
+>>>>>>> merge_branch
       </div>
     </div>
   );
